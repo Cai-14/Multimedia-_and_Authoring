@@ -1,0 +1,80 @@
+/* ...existing code... */
+
+/* Container for centered content */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.07);
+  padding: 30px 24px;
+}
+
+/* Section spacing */
+section {
+  margin-bottom: 48px;
+  padding: 24px 0;
+  border-bottom: 1px solid #e3eaf5;
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+/* Footer styling */
+footer {
+  background: #004d99;
+  color: #fff;
+  text-align: center;
+  padding: 18px 0;
+  border-radius: 0 0 12px 12px;
+  margin-top: 40px;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+/* Headings */
+header h1, section h2 {
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+header h1 {
+  font-size: 2.4rem;
+}
+
+section h2 {
+  font-size: 2rem;
+}
+
+/* Button transitions */
+.age-calculator-container button {
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,119,204,0.08);
+}
+
+.age-calculator-container button:hover {
+  background-color: #005fa3;
+  box-shadow: 0 4px 16px rgba(0,119,204,0.15);
+}
+
+/* Responsive container */
+@media (max-width: 900px) {
+  .container {
+    padding: 16px 4vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 8px 2vw;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+  section h2 {
+    font-size: 1.2rem;
+  }
+}
+
+/* ...existing code... */
